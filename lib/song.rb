@@ -28,7 +28,7 @@ class Song
     song.name = name 
     song
   end 
-  
+  binding.pry
   def self.find_by_name(name) 
     
   end 

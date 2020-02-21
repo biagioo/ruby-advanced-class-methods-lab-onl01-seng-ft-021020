@@ -21,7 +21,7 @@ class Song
     
     @name = self.new 
     
-    name = @name 
+    @name = name
     binding.pry
     name.save
     name

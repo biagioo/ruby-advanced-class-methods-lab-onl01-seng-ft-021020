@@ -23,6 +23,6 @@ class Song
     #binding.pry
     name
   end
- binding.pry
+ 
   
 end

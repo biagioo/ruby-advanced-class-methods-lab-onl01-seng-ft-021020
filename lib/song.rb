@@ -24,9 +24,10 @@ class Song
   end
   
   def self.create_by_name(name) 
-    song = self.create
+    song = self.new
     song.name = name 
-    song 
+    song.save 
+    song
   end 
   
 end

@@ -35,6 +35,12 @@ class Song
     end 
   end 
   
+  def self.find_or_create_by_name(name)
+    #if (name) is in all return it if not create a new song & return it 
+    
+    
+    
+  end 
 end
 
 

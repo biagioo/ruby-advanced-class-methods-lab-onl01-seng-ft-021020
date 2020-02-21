@@ -20,8 +20,9 @@ class Song
   def self.new_by_name(name)
     
     @name = self.new 
-    binding.pry
+    
     name = @name 
+    binding.pry
     name.save
     name
     
